@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+Debug
+.settings
+.cproject
+.mxproject
+Proyecto_Final_PM Debug.launch
+Proyecto_Final_PM.ioc
+STM32F334R8TX_FLASH.ld
+.project
+
