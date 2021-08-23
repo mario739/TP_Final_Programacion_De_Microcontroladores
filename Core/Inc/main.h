@@ -6,7 +6,7 @@
  *   Created on: Aug 17, 2021
  */
 
-/* Define y previene las incluciones -------------------------------------*/
+
 #ifndef __MAIN_H
 #define __MAIN_H
 
@@ -20,11 +20,6 @@ extern "C" {
 #include "Timer.h"
 #include "ADC.h"
 #include "UART.h"
-
-/* Exported functions prototypes ---------------------------------------------*/
-void Error_Handler(void);
-
-/* Private defines -----------------------------------------------------------*/
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
 #define RCC_OSC32_OUT_Pin GPIO_PIN_15

@@ -14,7 +14,7 @@ static uint8_t txbufferADC[30];
 static uint16_t num;
 
 
-
+//Configura los parametros del UART
 void Configuracion_UART_Init(void)
 {
 	/* Configuracion del UART */
@@ -33,8 +33,7 @@ void Configuracion_UART_Init(void)
       Error_Handler();
     }
 }
-/* Configuracion del UART */
-
+//Funcion para escribir por el UART
 uint8_t UART_Write(uint8_t valor)
 {
 	num=sprintf(txbufferADC,"valor adc:%u\n",valor);
